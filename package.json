@@ -4,8 +4,7 @@
   "description": "Learning to deploy with shipit.",
   "main": "index.js",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-shipit": "^1.0.0",
+    "shipit-cli": "^1.2.1",
     "shipit-deploy": "^1.3.1"
   },
   "scripts": {
