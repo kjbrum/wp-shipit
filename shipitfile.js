@@ -7,7 +7,8 @@ module.exports = function(shipit) {
             deployTo: '/var/repo',
             repositoryUrl: 'https://github.com/kjbrum/wp-shipit',
             ignores: ['.git', 'node_modules'],
-            keepReleases: 5
+            keepReleases: 5,
+            shallowClone: true
         },
 
         // Staging environment.
